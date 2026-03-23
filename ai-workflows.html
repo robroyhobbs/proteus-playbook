@@ -1,132 +1,229 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI Workflows · Proteus Playbook</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <nav class="nav">
-    <div class="container nav-inner">
-      <div class="nav-logo"><a href="index.html" style="color:inherit;"><span class="dot"></span> Proteus Playbook</a></div>
-      <div class="nav-links">
-        <a href="index.html">Hub</a>
-        <a href="repurposed-content.html">Repurposing</a>
-        <a href="ai-workflows.html" class="active">AI Workflows</a>
-        <a href="website-iterations/baseball.html">Baseball</a>
-        <a href="website-iterations/longevity.html">Longevity</a>
-        <a href="website-iterations/elite.html">Elite</a>
-        <a href="zero-to-thirty.html">0-30 Plan</a>
-      </div>
-    </div>
-  </nav>
-
-  <header class="hero-compact">
-    <div class="container">
-      <div class="breadcrumb"><a href="index.html">Playbook</a> <span class="sep">/</span> AI Workflows</div>
-      <div class="eyebrow cyan">Workflow</div>
-      <h1>AI collapses production, not judgment</h1>
-      <p class="sub">One person producing at the scale of a small team. 1 interview &rarr; 15-20 calibrated outputs in 2-3 days.</p>
-    </div>
-  </header>
-
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2>The 6-stage engine</h2>
-      </div>
-
-      <div class="flow">
-        <div class="flow-step" style="border-color:var(--gn2);"><div class="label" style="color:var(--gn);">Capture</div><div class="desc">Human interviews</div></div>
-        <div class="flow-arrow">&rarr;</div>
-        <div class="flow-step" style="border-color:var(--cy2);"><div class="label" style="color:var(--cy);">Extract</div><div class="desc">AI pulls proof</div></div>
-        <div class="flow-arrow">&rarr;</div>
-        <div class="flow-step" style="border-color:var(--gn2);"><div class="label" style="color:var(--gn);">Select</div><div class="desc">Human picks angles</div></div>
-        <div class="flow-arrow">&rarr;</div>
-        <div class="flow-step" style="border-color:var(--cy2);"><div class="label" style="color:var(--cy);">Draft</div><div class="desc">AI per-platform</div></div>
-        <div class="flow-arrow">&rarr;</div>
-        <div class="flow-step" style="border-color:var(--gn2);"><div class="label" style="color:var(--gn);">Calibrate</div><div class="desc">Human edits voice</div></div>
-        <div class="flow-arrow">&rarr;</div>
-        <div class="flow-step" style="border-color:var(--cy2);"><div class="label" style="color:var(--cy);">Distribute</div><div class="desc">AI schedules</div></div>
-      </div>
-
-      <div class="grid two mt-3">
-        <div class="callout green">
-          <p><strong style="color:var(--gn);">Human stays in control:</strong> Source capture, angle selection, voice calibration, strategy. The judgment calls AI can't make.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Workflows · Proteus Playbook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container nav-inner">
+        <div class="nav-logo">
+          <a href="index.html" style="color: inherit"
+            ><span class="dot"></span> Proteus Playbook</a
+          >
         </div>
-        <div class="callout cyan">
-          <p><strong style="color:var(--cy);">AI accelerates:</strong> Transcription, proof extraction, drafts, platform adaptation, scheduling. The 80% of time that's production.</p>
+        <div class="nav-links">
+          <a href="index.html">Hub</a>
+          <a href="repurposed-content.html">Repurposing</a>
+          <a href="ai-workflows.html" class="active">AI Workflows</a>
+          <a href="website-iterations/baseball.html">Baseball</a>
+          <a href="website-iterations/longevity.html">Longevity</a>
+          <a href="website-iterations/elite.html">Elite</a>
+          <a href="zero-to-thirty.html">0-30 Plan</a>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2>What changes</h2>
-      </div>
-
-      <div class="grid two">
-        <div class="card">
-          <h3>Without AI</h3>
-          <ul class="checklist">
-            <li>1 interview &rarr; 2-3 assets/week</li>
-            <li>80% production, 20% strategy</li>
-            <li>Same angle, all platforms</li>
-            <li>One segment per cycle</li>
-          </ul>
+    <header class="hero-compact">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Playbook</a> <span class="sep">/</span> AI
+          Workflows
         </div>
-        <div class="card" style="border-color:var(--gn2);">
-          <h3>With AI workflow</h3>
-          <ul class="checklist">
-            <li>1 interview &rarr; <strong>15-20 assets in 2-3 days</strong></li>
-            <li><strong>60% strategy, 40% production</strong></li>
-            <li>Platform-native adaptation per channel</li>
-            <li><strong>3 segments served simultaneously</strong></li>
-          </ul>
+        <div class="eyebrow cyan">Workflow</div>
+        <h1>AI collapses production, not judgment</h1>
+        <p class="sub">
+          One person producing at the scale of a small team. 1 interview &rarr;
+          15-20 calibrated outputs in 2-3 days.
+        </p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>The 6-stage engine</h2>
+        </div>
+
+        <div class="flow">
+          <div class="flow-step" style="border-color: var(--gn2)">
+            <div class="label" style="color: var(--gn)">Capture</div>
+            <div class="desc">Human interviews</div>
+          </div>
+          <div class="flow-arrow">&rarr;</div>
+          <div class="flow-step" style="border-color: var(--cy2)">
+            <div class="label" style="color: var(--cy)">Extract</div>
+            <div class="desc">AI pulls proof</div>
+          </div>
+          <div class="flow-arrow">&rarr;</div>
+          <div class="flow-step" style="border-color: var(--gn2)">
+            <div class="label" style="color: var(--gn)">Select</div>
+            <div class="desc">Human picks angles</div>
+          </div>
+          <div class="flow-arrow">&rarr;</div>
+          <div class="flow-step" style="border-color: var(--cy2)">
+            <div class="label" style="color: var(--cy)">Draft</div>
+            <div class="desc">AI per-platform</div>
+          </div>
+          <div class="flow-arrow">&rarr;</div>
+          <div class="flow-step" style="border-color: var(--gn2)">
+            <div class="label" style="color: var(--gn)">Calibrate</div>
+            <div class="desc">Human edits voice</div>
+          </div>
+          <div class="flow-arrow">&rarr;</div>
+          <div class="flow-step" style="border-color: var(--cy2)">
+            <div class="label" style="color: var(--cy)">Distribute</div>
+            <div class="desc">AI schedules</div>
+          </div>
+        </div>
+
+        <div class="grid two mt-3">
+          <div class="callout green">
+            <p>
+              <strong style="color: var(--gn)">Human stays in control:</strong>
+              Source capture, angle selection, voice calibration, strategy. The
+              judgment calls AI can't make.
+            </p>
+          </div>
+          <div class="callout cyan">
+            <p>
+              <strong style="color: var(--cy)">AI accelerates:</strong>
+              Transcription, proof extraction, drafts, platform adaptation,
+              scheduling. The 80% of time that's production.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2>How this works with Caley</h2>
-      </div>
-
-      <div class="grid two">
-        <div>
-          <h4>What stays the same</h4>
-          <ul class="checklist mt-1">
-            <li>Community management & engagement</li>
-            <li>Production shoots & visual content</li>
-            <li>Ambassador program & trainer relationships</li>
-            <li>Brand voice & editorial judgment</li>
-          </ul>
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>What changes</h2>
         </div>
-        <div>
-          <h4>What gets amplified</h4>
-          <ul class="checklist mt-1">
-            <li>Every shoot produces 3-5x more assets</li>
-            <li>Each testimonial becomes segment-specific</li>
-            <li>Cross-platform distribution gets consistent</li>
-            <li>More time for strategy, less on production</li>
-          </ul>
+
+        <div class="grid two">
+          <div class="card">
+            <h3>Without AI</h3>
+            <ul class="checklist">
+              <li>1 interview &rarr; 2-3 assets/week</li>
+              <li>80% production, 20% strategy</li>
+              <li>Same angle, all platforms</li>
+              <li>One segment per cycle</li>
+            </ul>
+          </div>
+          <div class="card" style="border-color: var(--gn2)">
+            <h3>With AI workflow</h3>
+            <ul class="checklist">
+              <li>
+                1 interview &rarr; <strong>15-20 assets in 2-3 days</strong>
+              </li>
+              <li><strong>60% strategy, 40% production</strong></li>
+              <li>Platform-native adaptation per channel</li>
+              <li><strong>3 segments served simultaneously</strong></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="footer">
-    <div class="container">
-      <a href="repurposed-content.html">&larr; Repurposing</a> &middot; <a href="website-iterations/baseball.html">Next: Baseball &rarr;</a>
-    </div>
-  </footer>
-</body>
+    <!-- VIDEO + VISUAL PRODUCTION -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Video &amp; visual production at scale</h2>
+          <p>
+            The content engine isn't just text. Programmatic video tools extend
+            the same workflow to visual assets.
+          </p>
+        </div>
+
+        <div class="grid three">
+          <div class="card" style="border-color: var(--ac2)">
+            <div class="tag purple">Remotion</div>
+            <h4 class="mt-1">Programmatic video</h4>
+            <p class="small mt-1">
+              React-based video generation. Create templates once, then produce
+              segment-specific variants automatically: stat cards, testimonial
+              clips, data visualizations, product demos — all from the same
+              source data.
+            </p>
+          </div>
+          <div class="card" style="border-color: var(--cy2)">
+            <div class="tag cyan">Batch production</div>
+            <h4 class="mt-1">One template &rarr; dozens of clips</h4>
+            <p class="small mt-1">
+              Design a "rotational power stat" video template. Feed in different
+              athlete data, trainer quotes, or segment messaging &rarr; get
+              15-20 unique short-form clips without manual editing.
+            </p>
+          </div>
+          <div class="card" style="border-color: var(--gn2)">
+            <div class="tag green">Platform-native</div>
+            <h4 class="mt-1">Auto-format per channel</h4>
+            <p class="small mt-1">
+              Same content, different specs: 9:16 for Reels/TikTok, 1:1 for
+              feed, 16:9 for YouTube. Text overlays for silent autoplay. Branded
+              consistently across all outputs.
+            </p>
+          </div>
+        </div>
+
+        <div class="callout mt-3">
+          <p>
+            <strong>Applied to Proteus:</strong> One quarterly shoot with
+            Caley's team becomes the raw footage. Remotion templates turn that
+            into segment-specific video assets — baseball trainer clips get
+            rotational power data overlays, longevity clips get healthspan
+            messaging, elite clips get peer testimonial formats. Same footage,
+            3x the output.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>How this works with Caley</h2>
+        </div>
+
+        <div class="grid two">
+          <div>
+            <h4>What stays the same</h4>
+            <ul class="checklist mt-1">
+              <li>Community management & engagement</li>
+              <li>Production shoots & visual content</li>
+              <li>Ambassador program & trainer relationships</li>
+              <li>Brand voice & editorial judgment</li>
+            </ul>
+          </div>
+          <div>
+            <h4>What gets amplified</h4>
+            <ul class="checklist mt-1">
+              <li>Every shoot produces 3-5x more assets</li>
+              <li>Each testimonial becomes segment-specific</li>
+              <li>Cross-platform distribution gets consistent</li>
+              <li>More time for strategy, less on production</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="repurposed-content.html">&larr; Repurposing</a> &middot;
+        <a href="website-iterations/baseball.html">Next: Baseball &rarr;</a>
+      </div>
+    </footer>
+  </body>
 </html>
