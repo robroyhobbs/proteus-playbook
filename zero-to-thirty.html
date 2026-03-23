@@ -428,12 +428,14 @@
                   >
                 </td>
                 <td style="padding: 14px 16px; vertical-align: top">
-                  Claude for content writing + proof extraction. PDF generation
-                  for polished output. AI image gen for data visualizations.
+                  Claude for content + proof extraction. Puppeteer or React-PDF
+                  for HTML&rarr;PDF rendering. AI image gen for data
+                  visualizations.
                 </td>
                 <td style="padding: 14px 16px; vertical-align: top">
-                  AI writes the guide from raw proof sources. Human calibrates
-                  voice. Output is a branded, downloadable PDF.
+                  AI writes the guide from raw proof. Human calibrates voice.
+                  Rendered into branded PDF via HTML&rarr;PDF pipeline (not
+                  AI-generated PDF).
                 </td>
               </tr>
               <tr style="border-bottom: 1px solid var(--bd)">
@@ -444,12 +446,15 @@
                   >
                 </td>
                 <td style="padding: 14px 16px; vertical-align: top">
-                  Claude for sequence copywriting. ESP (Mailchimp, ConvertKit,
-                  or HubSpot). Segment tagging from lead magnet source.
+                  Claude for sequence copywriting.
+                  <strong style="color: var(--tx)">HubSpot</strong> (their
+                  current platform) for delivery, workflows, and lead scoring.
+                  Segment tagging from lead magnet source.
                 </td>
                 <td style="padding: 14px 16px; vertical-align: top">
-                  AI drafts all 13 emails (4+5+4) from the messaging framework.
-                  Human edits for voice. Load into ESP with segment tags.
+                  AI drafts all 13 emails (4+5+4) from messaging framework.
+                  Human edits for voice. Loaded into HubSpot workflows with
+                  segment tags + lead scoring rules.
                 </td>
               </tr>
               <tr style="border-bottom: 1px solid var(--bd)">
@@ -506,15 +511,123 @@
           </table>
         </div>
 
+        <div class="section-header mt-3">
+          <h3>Marketing skill stack</h3>
+          <p>Specialized AI workflows that feed into each experiment.</p>
+        </div>
+
+        <div class="grid four">
+          <div class="card">
+            <div class="tag green" style="margin-bottom: 6px">Foundation</div>
+            <h4>Brand Voice</h4>
+            <p class="small mt-1">
+              Extract and define Proteus's voice before writing anything.
+              Ensures all content sounds consistent across segments.
+            </p>
+          </div>
+          <div class="card">
+            <div class="tag green" style="margin-bottom: 6px">Foundation</div>
+            <h4>Positioning Angles</h4>
+            <p class="small mt-1">
+              Research competitors, map saturated messaging, generate 3-5 angles
+              per segment. Starred recommendation for each.
+            </p>
+          </div>
+          <div class="card">
+            <div class="tag purple" style="margin-bottom: 6px">Content</div>
+            <h4>Content Atomizer</h4>
+            <p class="small mt-1">
+              The core repurposing engine. One source &rarr; platform-specific
+              assets across LinkedIn, X, IG, TikTok, YouTube, email.
+            </p>
+          </div>
+          <div class="card">
+            <div class="tag purple" style="margin-bottom: 6px">Content</div>
+            <h4>SEO Content</h4>
+            <p class="small mt-1">
+              SERP-analyzed articles that rank. Case study pages, blog posts,
+              FAQ schema. What baseball trainers and longevity practitioners
+              actually search for.
+            </p>
+          </div>
+          <div class="card">
+            <div class="tag cyan" style="margin-bottom: 6px">Conversion</div>
+            <h4>Direct Response Copy</h4>
+            <p class="small mt-1">
+              Landing page copy, CTA optimization, headline A/B variants. Score
+              copy on 7 dimensions. Built for conversion, not just reads.
+            </p>
+          </div>
+          <div class="card">
+            <div class="tag cyan" style="margin-bottom: 6px">Conversion</div>
+            <h4>Lead Magnet Builder</h4>
+            <p class="small mt-1">
+              Full concept-to-content workflow. Strategy (what to give away +
+              why) then BUILD mode (actual checklist, guide, or template
+              content).
+            </p>
+          </div>
+          <div class="card">
+            <div class="tag cyan" style="margin-bottom: 6px">Conversion</div>
+            <h4>Email Sequences</h4>
+            <p class="small mt-1">
+              Welcome, nurture, conversion sequences with A/B subject lines.
+              Detects HubSpot and offers automation setup.
+            </p>
+          </div>
+          <div class="card">
+            <div class="tag amber" style="margin-bottom: 6px">Distribution</div>
+            <h4>Keyword Research</h4>
+            <p class="small mt-1">
+              6 Circles Method from seed keywords. Live SERP validation.
+              Clusters into content pillars mapped to each segment.
+            </p>
+          </div>
+          <div class="card">
+            <div class="tag amber" style="margin-bottom: 6px">Distribution</div>
+            <h4>Social Posts</h4>
+            <p class="small mt-1">
+              Platform-adapted posts with scoring. X, LinkedIn, Instagram,
+              TikTok — each optimized for its algorithm and audience behavior.
+            </p>
+          </div>
+          <div class="card">
+            <div class="tag amber" style="margin-bottom: 6px">Distribution</div>
+            <h4>Newsletter</h4>
+            <p class="small mt-1">
+              If Proteus wants a regular send by segment or combined — format
+              templates, content generation, and growth strategy built in.
+            </p>
+          </div>
+          <div class="card">
+            <div class="tag purple" style="margin-bottom: 6px">Visual</div>
+            <h4>Remotion Video</h4>
+            <p class="small mt-1">
+              React-based programmatic video. Templates for stat cards,
+              testimonials, data visualizations. Batch render per segment and
+              platform.
+            </p>
+          </div>
+          <div class="card">
+            <div class="tag purple" style="margin-bottom: 6px">Visual</div>
+            <h4>AI Image Generation</h4>
+            <p class="small mt-1">
+              Product shots, social graphics, data visualization images.
+              Platform-optimized dimensions and branded consistently.
+            </p>
+          </div>
+        </div>
+
         <div class="callout mt-3">
           <p>
-            <strong>The orchestration layer:</strong> AI isn't one tool — it's
-            the connective tissue across all six experiments. Claude handles
-            writing, extraction, and adaptation. Remotion handles video. The ESP
-            handles delivery. The website handles pages. But the
-            <em>system</em> that connects them — source &rarr; extract &rarr;
-            angle &rarr; adapt &rarr; distribute — is what makes one person do
-            the work of a team.
+            <strong>The orchestration layer:</strong> These aren't separate
+            tools working independently — they're a connected system. Brand
+            voice feeds into every content skill. Positioning angles drive
+            landing page copy, email sequences, and social posts simultaneously.
+            One source interview flows through the atomizer into
+            platform-specific outputs, gets rendered into video via Remotion,
+            and distributed through HubSpot and social channels. One person
+            orchestrates the whole stack.
           </p>
         </div>
       </div>
